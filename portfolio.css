@@ -1,0 +1,109 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.8;
+    margin: 1;
+    padding: 1;
+    background: black;
+    color: white;
+   font-size: 16px;
+}
+
+header {
+    background:#2b2727;
+    color: white;
+    padding: 3rem 0;
+    text-align: center;
+    
+    
+}
+
+header h1 {
+    margin: 1;
+    font-size: 3rem;
+   
+    
+}
+
+header p {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 500;
+    
+    
+}
+
+section {
+    padding: 3rem;
+    margin: 2rem auto;
+    max-width: 900px;
+    background:#2b2727;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    
+    
+}
+
+#about img {
+    float: left;
+    margin-right: 5rem;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    
+}
+
+#about div {
+    overflow:visible;
+}
+
+#skills ul {
+    list-style-type:disc;
+    padding: 0;
+}
+
+#skills li {
+    background: #181616;
+    margin: 1rem 0;
+    padding: 0.5rem;
+    border-radius: 12px;
+}
+
+#projects .project {
+    display:flex;
+    margin: 2rem 0;
+}
+
+#projects .project img {
+    width: 150px;
+    height: 150px;
+    margin-right: 1rem;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+#projects .project div {
+    max-width: calc(100% - 160px);
+}
+
+#resume a {
+    display :ruby;
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    background: rgba(0, 0, 24, 0.685);
+    color: #fff;
+    text-decoration :none;
+    border-radius: 4px;
+}
+
+#contact a {
+    color: #e4d8d8;
+    text-decoration:double;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background:rgba(0, 0, 24, 0.685);
+    color: #fff;
+}
